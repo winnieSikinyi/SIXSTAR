@@ -1,0 +1,192 @@
+@media (min-width: 600px) and (max-width: 768px) {
+    body {
+
+    overflow-x: scroll;
+     overflow-y: hidden; 
+    
+
+}
+.six-star ul li{
+    list-style: none;
+    position: relative;
+    bottom: 750px;
+    float: left;
+    left: 90px;
+    padding: 40px 40px ;
+    color: white;
+    
+}
+.butt1{
+    position: relative;
+    bottom: 710px;
+    color: rgb(21, 21, 117);
+    border: solid 2px;
+    left: 500px;
+    padding: 2px 20px;
+}
+
+.butt2{
+    position: relative;
+    bottom: 430px;
+    background-color: rgb(21, 21, 117);
+    color: white;
+    bottom: 710px;
+    left: 550px;
+    padding: 2px 20px;
+}
+.nuro{
+    color: blue;
+    position: relative;
+    bottom: 680px;
+}
+.Heading p{
+    position: relative;
+    bottom: 500px;
+    color: white;
+}
+.text2{
+    position: relative;
+    bottom: 500px; 
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    right: 300px;
+}
+
+.text3{
+    position: relative;
+    bottom: 500px; 
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#blue{
+    color: blue;
+}
+.pophotel{
+    position: relative;
+    margin-bottom: 100px;
+}
+.popular{
+    
+    text-align: center;
+}
+.seemore{
+    position: relative;
+    color: rgb(21, 21, 117);
+    left: 300px;
+    padding: 2px 20px;
+}
+#total{
+
+}
+#sum{
+margin-left: 10%;
+}
+#add{
+    margin-left: 10%;
+}
+.room{
+    text-align: center;
+}
+.lasata{
+    margin-left: 10%;
+}
+.menu{
+    text-align: center;
+}
+.schedule{
+    display: flex;
+}
+#sched{
+margin-left: 20%;
+}
+#sche{
+margin-left: 5%;
+}
+#dule{
+margin-left: 5%;
+}
+.client{
+    display: flex;
+}
+.crit1{
+
+}
+.crit2{
+margin-left: 10%;
+}
+.crit3{
+    margin-left: 10%;
+}
+#peg{
+    border-radius: 50%;
+}
+.hoose{
+display: flex;
+}
+#why{
+    text-align: center;
+}
+.choosy{
+    margin-left: 20%;
+}
+#twenty{
+margin-left: 0%;
+background-color:rgb(5, 76, 104);
+color: white;
+border-radius: 10%;
+
+}
+#fifty{
+margin-left: 0%;
+background-color:skyblue;
+color: white;
+border-radius: 10%;
+}
+#thousa{
+margin-left: 0%;
+background-color:skyblue;
+color: white;
+border-radius: 10%;
+
+}
+.luxury{
+    /* margin-right: 5%; */
+}
+.lux{
+    display: flex;
+}
+#xury{
+    margin-top: 5%;
+}
+.subscribe{
+    background-color: rgb(23, 117, 155);
+    color: aliceblue;
+    border-radius: 150px 150px 0px 0px;
+    margin: 2px;
+    text-align: center;
+}
+#buyy{
+    padding: 20px 70px;
+    border-radius: 20%;
+}
+#cribe{
+    padding: 20px 70px;
+    border-radius: 20%; 
+} 
+.last{
+    display: flex;
+}
+#learn{
+ margin-left: 15%;
+}
+#resource{
+    margin-left: 20%;
+}
+footer{
+
+}
+
+    }
