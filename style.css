@@ -1,91 +1,78 @@
-@media (min-width: 600px) and (max-width: 768px) {
-    body {
+ body {
 
-    overflow-x: scroll;
-     overflow-y: hidden; 
-    
-
+    overflow-x: hidden;
+     /* overflow-y: hidden;  */
 }
-.six-star ul li{
-    list-style: none;
-    position: relative;
-    bottom: 750px;
-    float: left;
-    left: 90px;
-    padding: 40px 40px ;
-    color: white;
-    
+.navs a{
+    text-decoration: none;
+    margin: 20px;
 }
 .butt1{
-    position: relative;
-    bottom: 710px;
-    color: rgb(21, 21, 117);
-    border: solid 2px;
-    left: 500px;
-    padding: 2px 20px;
+    padding: 20%;
 }
-
 .butt2{
-    position: relative;
-    bottom: 430px;
-    background-color: rgb(21, 21, 117);
-    color: white;
-    bottom: 710px;
-    left: 550px;
-    padding: 2px 20px;
+ background-color: lightskyblue;
+ color: aliceblue;
+ border-radius: 10%;
 }
-.nuro{
-    color: blue;
-    position: relative;
-    bottom: 680px;
-}
-.Heading p{
-    position: relative;
-    bottom: 500px;
-    color: white;
-}
-.text2{
-    position: relative;
-    bottom: 500px; 
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    right: 300px;
-}
+.Hotel{
+    background-image: url("/Images/wallp1.jpg");
+    background-size:cover ;
 
-.text3{
-    position: relative;
-    bottom: 500px; 
-    text-align: center;
-    color: white;
-    font-size: 50px;
+    height: 600px;
 }
-
+.Heading{
+    text-align: center;
+    margin-top: 15%;
+}
 #blue{
     color: blue;
 }
-.pophotel{
-    position: relative;
-    margin-bottom: 100px;
+.berlin{
+    border-radius: 100%;
+    gap: 20%;
 }
-.popular{
-    
+#seemore{
+background-color: blue;
+color: aliceblue;
+}
+#facy{
     text-align: center;
 }
-.seemore{
+.foods{
+    display: flex;
+    grid-template-columns:repeat(3,1fr);
+}
+.foods img{
+    height: 45%;
+    width: 30%;
+}
+/* .pophotel{
+    display: flexbox;
+    position: relative;
+    margin-bottom: 10px; */
+
+#popular{
+    text-align: center;
+    font-size: 28px;
+}
+#seemore{
     position: relative;
     color: rgb(21, 21, 117);
-    left: 300px;
-    padding: 2px 20px;
+    margin-left: 600px;
+    padding: 10px 20px;
+    
 }
 #total{
-
+margin-right: 60%;
 }
 #sum{
-margin-left: 10%;
+margin-left: 40%;
+margin-bottom: 25%;
 }
 #add{
-    margin-left: 10%;
+    margin-left: 40%;
+    margin-bottom: 25%;
 }
 .room{
     text-align: center;
@@ -110,9 +97,6 @@ margin-left: 5%;
 }
 .client{
     display: flex;
-}
-.crit1{
-
 }
 .crit2{
 margin-left: 10%;
@@ -188,5 +172,29 @@ border-radius: 10%;
 footer{
 
 }
+@media (min-width: 600px) and (max-width: 768px) {
+    
+    .text2{
+        position: relative;
+        bottom: 50px; 
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        right: 50px;
+    }
+    .text3{
+        position: relative;
+        bottom: 50px; 
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
 
     }
+.All{
+    width: 400px;
+    height: 400px;
+}
+.reception{
+    border-radius: 120px 10px 120px 10px;
+}

@@ -1,0 +1,54 @@
+.navs a{
+    text-decoration: none;
+    margin: 20px;
+}
+#text{
+    text-align: center;
+}
+.butt1{
+    padding: 20%;
+}
+.butt2{
+ background-color: lightskyblue;
+ color: aliceblue;
+ border-radius: 10%;
+}
+.All{
+
+}
+.floral{
+display: flex;
+}
+.lobby{
+    /* width: 100px;
+    height: 200px;
+    border-radius: 20%;
+} */
+    width: -50%;
+    height: -50%;
+    border-radius: 30%;
+}
+.reception{
+    display: flex;
+}
+.hima{
+    border-radius: 100%;
+}
+.swim{
+    display: flex;
+}
+.mimming{
+    border-radius: 50%;
+}
+.last{
+    display: flex;
+}
+#learn{
+ margin-left: 15%;
+}
+#resource{
+    margin-left: 20%;
+}
+@media (min-width: 600px) and (max-width: 768px) {
+
+}
