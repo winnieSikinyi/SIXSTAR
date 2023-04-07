@@ -1,5 +1,10 @@
+body {
+
+    overflow-x: hidden;
+     /* overflow-y: hidden;  */
+}
 .cont{
-background-color: brown;
+background-color: #e9ecef;
 }
 .nav a{
     text-decoration: none;
@@ -29,6 +34,52 @@ gap: 30px;
     gap: 30px;
 }
 .message{
-    padding:10px 50px 50px 50px;
+    padding:2% 12% 12% 12%;
     border-radius: 10px  10px 100px  10px;
 }
+.last{
+    display: flex;
+}
+#learn{
+ margin-left: 10%;
+}
+#resource{
+    margin-left: 15%;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    body {
+
+        overflow-x: hidden;
+         /* overflow-y: hidden;  */
+    }
+    .text{
+        text-align: center;
+    }
+    .name{
+    display: flex;
+    gap: 30px;
+    }
+    .mail{
+        display: flex;
+        gap: 30px;
+    }
+    .code{
+        display: flex;
+        gap: 30px;
+    }
+    .message{
+        padding:10px 50px 50px 50px;
+        border-radius: 10px  10px 100px  10px;
+    }
+    .last{
+        display: flex;
+    }
+    #learn{
+     margin-left: 10%;
+    }
+    #resource{
+        margin-left: 15%;
+
+    }
+   }
