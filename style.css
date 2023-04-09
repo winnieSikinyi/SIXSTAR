@@ -17,7 +17,6 @@
 .Hotel{
     background-image: url("/Images/wallp1.jpg");
     background-size:cover ;
-
     height: 600px;
 }
 .Heading{
@@ -38,18 +37,21 @@ color: aliceblue;
 #facy{
     text-align: center;
 }
+.room{
+    text-align: center;
+}
+.lasata{
+    margin-left: 10%;
+}
 .foods{
-    display: flex;
-    grid-template-columns:repeat(3,1fr);
+  display: grid;
+    grid-template-rows:repeat(3,1fr);
+    
 }
 .foods img{
     height: 45%;
     width: 30%;
 }
-/* .pophotel{
-    display: flexbox;
-    position: relative;
-    margin-bottom: 10px; */
 
 #popular{
     text-align: center;
@@ -58,7 +60,7 @@ color: aliceblue;
 #seemore{
     position: relative;
     color: rgb(21, 21, 117);
-    margin-left: 600px;
+    margin-left: 100px;
     padding: 10px 20px;
     
 }
@@ -73,12 +75,7 @@ margin-bottom: 25%;
     margin-left: 40%;
     margin-bottom: 25%;
 }
-.room{
-    text-align: center;
-}
-.lasata{
-    margin-left: 10%;
-}
+
 .menu{
     text-align: center;
 }
@@ -94,9 +91,20 @@ margin-left: 5%;
 #dule{
 margin-left: 5%;
 }
-.client{
-    display: flex;
+.tryy{
+margin-top: -40%;
+
+text-align: center;
+} 
+.overal{
+
 }
+.client{
+   justify-content: center;
+    display: flex;
+    
+}
+
 .crit2{
 margin-left: 10%;
 }
@@ -115,6 +123,10 @@ display: flex;
 .choosy{
     margin-left: 20%;
 }
+.chose{
+    height: 45vh;
+    width: 50%; 
+ }
 #twenty{
 margin-left: 0%;
 background-color:rgb(5, 76, 104);
@@ -144,20 +156,36 @@ border-radius: 10%;
 #xury{
     margin-top: 5%;
 }
-.subscribe{
-    background-color: rgb(23, 117, 155);
+.subsc{
+    background-color: rgb(110, 181, 209);
     color: aliceblue;
     border-radius: 150px 150px 0px 0px;
+    padding:10px 40px ;
     margin: 2px;
     text-align: center;
 }
-#buyy{
-    padding: 20px 70px;
-    border-radius: 20%;
+.papa{
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 7px  20px;
+    width: 40%;
+    position: relative;
+    left: 20%;
+   
+   
+    
 }
-#cribe{
-    padding: 20px 70px;
-    border-radius: 20%; 
+#buyy{
+    
+    border-radius: 20%;
+    background-color: aqua;
+}
+#barry{
+   
+    border-radius: 10%; 
+    background-color: rgb(7, 245, 245);
+    margin-left: 120px;
+    
 } 
 .last{
     display: flex;
@@ -169,6 +197,7 @@ border-radius: 10%;
     margin-left: 20%;
 }
 footer{
+
 
 }
 @media (min-width: 600px) and (max-width: 768px) {
@@ -188,12 +217,61 @@ footer{
         color: white;
         font-size: 20px;
     }
+    .All{
+        width: 400px;
+        height: 400px;
+    }
+    .reception{
+        border-radius: 120px 10px 120px 10px;
+    }
+    #cribe{
+        padding: 20px 70px;
+        border-radius: 20%; 
+    } 
+    .last{
+        display: flex;
+        font-size: x-small;
+    }
+    #learn{
+     margin-left:-2%;
+    }
+    #resource{
+        margin-left: -0%;
+    }
+    footer{
 
     }
-.All{
-    width: 400px;
-    height: 400px;
-}
-.reception{
-    border-radius: 120px 10px 120px 10px;
-}
+    .subsc{
+
+    }
+    .choosy{
+        margin-left: 20%;
+        font-size: smaller;
+    }
+    #twenty{
+    margin-left: 0%;
+    background-color:rgb(5, 76, 104);
+    color: white;
+    border-radius: 10%;
+    
+    }
+    #fifty{
+    margin-left: 0%;
+    background-color:skyblue;
+    color: white;
+    border-radius: 10%;
+    }
+    #thousa{
+    margin-left: 0%;
+    background-color:skyblue;
+    color: white;
+    border-radius: 10%;
+    
+    }
+    .chose{
+        height: 50vh;
+    width: 50%;  
+    }
+
+
+    }
